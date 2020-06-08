@@ -1,4 +1,4 @@
-package com.virtualpairprogrammers;
+package com.sqlmodule;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;

@@ -1,4 +1,4 @@
-package com.virtualpairprogrammers;
+package com.sqlmodule;
 
 import java.util.ArrayList;
 import java.util.List;

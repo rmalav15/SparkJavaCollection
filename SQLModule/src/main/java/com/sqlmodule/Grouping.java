@@ -1,4 +1,4 @@
-package com.virtualpairprogrammers;
+package com.sqlmodule;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,12 +6,9 @@ import java.util.List;
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
 import org.apache.spark.sql.Dataset;
-import org.apache.spark.sql.Encoder;
-import org.apache.spark.sql.Encoders;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.RowFactory;
 import org.apache.spark.sql.SparkSession;
-import org.apache.spark.sql.functions;
 
 import static org.apache.spark.sql.functions.*;
 import org.apache.spark.sql.types.DataTypes;
