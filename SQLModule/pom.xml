@@ -3,6 +3,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
+	<parent>
+		<groupId>com.spark</groupId>
+		<artifactId>spark-collection</artifactId>
+		<version>1</version>
+	</parent>
+
 	<groupId>com.sqlmodule</groupId>
 	<artifactId>SQLModule</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
@@ -48,8 +54,6 @@
 				<artifactId>maven-jar-plugin</artifactId>
 				<version>3.0.2</version>
 				<configuration>
-					<source>1.8</source>
-					<target>1.8</target>
 					<archive>
 						<manifest>
 							<mainClass>com.sqlmodule.Main</mainClass>
